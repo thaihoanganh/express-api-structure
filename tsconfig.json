@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "target": "es6",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "paths": {}
+    },
+    "typeRoots": ["*.d.ts", "types/*.d.ts"],
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
